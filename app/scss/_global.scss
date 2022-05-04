@@ -26,6 +26,8 @@ body{
     @extend %Commissioner-600;
     font-size: 48px;
     line-height: 58px;
+    text-align: center;
+    margin-bottom: 60px;
 }
 .text{
     @extend %Commissioner-400;
