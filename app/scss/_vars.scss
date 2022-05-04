@@ -1,15 +1,19 @@
-$default: #436372;
+$default: #000;
+$accent: #018FA3;
 
-// %Rubik-300{
-//     font-family: 'Rubik-Light', sans-serif;
-//     font-weight: 300;
-// }
-
-
-// %checkbox-hidden{
-//     width: 1px;
-//     height: 1px;
-//     overflow: hidden;
-//     clip: rect(0 0 0 0);
-//     position: absolute;
-// }
+%Commissioner-400{
+    font-family: 'Commissioner-Regular', sans-serif;
+    font-weight: 400;
+}
+%Commissioner-500{
+    font-family: 'Commissioner-Medium', sans-serif;
+    font-weight: 500;
+}
+%Commissioner-600{
+    font-family: 'Commissioner-SemiBold', sans-serif;
+    font-weight: 600;
+}
+%Commissioner-700{
+    font-family: 'Commissioner-Bold', sans-serif;
+    font-weight: 700;
+}
