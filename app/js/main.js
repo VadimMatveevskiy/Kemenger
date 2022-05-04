@@ -1,4 +1,11 @@
 $(function(){
+    $('.top-content__popup').on('click', function(){
+        $('.top-popup').addClass('top-popup--active');
+    });
+    $('.top-popup__btn').on('click', function(){
+        $('.top-popupok').addClass('top-popupok--active');
+        $('.top-popup').removeClass('top-popup--active');
+    });
 
     $('.comment__inner').slick({
         prevArrow: '<button type="button" class="slick-prev"><svg width="28" height="64" viewBox="0 0 28 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26 2L3.99903 29.5012C2.83033 30.9621 2.83032 33.0379 3.99902 34.4988L26 62" stroke-width="5"/></svg></button>',
@@ -13,6 +20,8 @@ $(function(){
     })
     $(document).on('mouseup', function(){
         $('.catalog__item').removeClass('catalog__item--active');
+        // $('.top-popup').removeClass('top-popup--active');
+        $('.top-popupok').removeClass('top-popupok--active');
     })
 
     $('.catalog__inner').slick({
