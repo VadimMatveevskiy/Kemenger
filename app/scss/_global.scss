@@ -6,15 +6,28 @@ body{
 body{
     display: flex;
     flex-direction: column;
+    color: $default;
+    @extend %Commissioner-400;
 }
 
 
 .main{
+    
     flex-grow: 1;
 }
 
 .container{
-    max-width: 1800px;
+    max-width: 1230px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.title{
+    @extend %Commissioner-600;
+    font-size: 48px;
+    line-height: 58px;
+}
+.text{
+    @extend %Commissioner-400;
+    font-size: 24px;
 }
